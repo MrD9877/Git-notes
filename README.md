@@ -60,7 +60,21 @@ To delete and navigate branch
 ```
 git checkout -d <--branch name--> 
 ```
+## MERGE CODE
 
+### WAY 1
+TO compare commits,branches,files and more
+```
+git diff <--branchname-->
+```
+To merge two branches
+```
+git merge <--branch name-->
+```
+
+### WAY 2
+
+***CREATE A PULL REQUEST***
 
 
 
