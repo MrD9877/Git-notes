@@ -7,6 +7,7 @@ All code syntext to work with git
 ##A second-level heading
 ###A third-level heading **Give space between # and text for it to works**
 
+<br/>
 Style	Syntax	Keyboard shortcut	Example	Output
 Bold	** ** or __ __	Command+B (Mac) or Ctrl+B (Windows/Linux)	**This is bold text**	This is bold text
 Italic	* * or _ _     	  Ctrl+I (Windows/Linux)	_This text is italicized_	This text is italicized
