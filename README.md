@@ -39,6 +39,29 @@ Superscript	<sup> </sup>	None	This is a <sup>superscript</sup> text\
 **git**  commit -m *"msg"*  (its imortant to commit to push changes)\
 **git**  push origin __main__(master{branch you want to push})\
 
+## BRANCH COMMANDS
+To check branch
+```
+git branch 
+```
+To rename branch
+```
+git branch -m main 
+```
+To navigate branch 
+```
+git checkout <--branch name--> 
+```
+To create and navigate branch 
+```
+git checkout -b <--branch name--> 
+```
+To delete and navigate branch 
+```
+git checkout -d <--branch name--> 
+```
+
+
 
 
 
