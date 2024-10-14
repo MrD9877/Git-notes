@@ -27,9 +27,7 @@ Superscript	<sup> </sup>	None	This is a <sup>superscript</sup> text\
 **git**  commit -m *"msg"*  (its imortant to commit to push changes)\
 **git**  push origin __main__(master{branch you want to push})\
 
-
 ## INIT GIT IN EXISTING PROJECT
-
 **git**  init \
 **git** remote add __origin__ <--link-->\
 **git**  remote -v (to verify remote)\
