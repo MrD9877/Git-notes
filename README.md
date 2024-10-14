@@ -56,7 +56,7 @@ git checkout -b <--branch name-->
 ```
 To delete and navigate branch 
 ```
-git checkout -d <--branch name--> 
+git checkout -D <--branch name--> 
 ```
 ## MERGE CODE
 
@@ -73,6 +73,38 @@ git merge <--branch name-->
 ### WAY 2
 
 ***CREATE A PULL REQUEST***
+
+## PULL COMMAND
+```
+git pull origin <--branch name-->
+```
+## UNDO CHANGES
+### CASE 1
+**STAGED CHANGE**(add)\
+For a specific file
+```
+git reset <--file name-->
+```
+For Whole project
+```
+git reset
+```
+### CASE 2
+**COMMIT CHANGE**(FOR ONE COMMIT)\
+```
+git reset HEAD~1
+```
+### CASE 3
+**COMMIT CHANGE**(FOR MANY COMMIT)\
+```
+git reset <--COMMMENT HASH-->
+```
+TO UNDO IN EDITOR
+```
+git reset --hard <--COMMMENT HASH-->
+```
+
+
 
 
 
