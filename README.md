@@ -79,8 +79,12 @@ git merge <--branch name-->
 git pull origin <--branch name-->
 ```
 ## UNDO CHANGES
+for log of past COMMMENT HASH
+```
+git log
+```
 ### CASE 1
-**STAGED CHANGE**(add)\
+**STAGED CHANGE**(add)
 For a specific file
 ```
 git reset <--file name-->
@@ -90,12 +94,12 @@ For Whole project
 git reset
 ```
 ### CASE 2
-**COMMIT CHANGE**(FOR ONE COMMIT)\
+**COMMIT CHANGE**(FOR ONE COMMIT)
 ```
 git reset HEAD~1
 ```
 ### CASE 3
-**COMMIT CHANGE**(FOR MANY COMMIT)\
+**COMMIT CHANGE**(FOR MANY COMMIT)
 ```
 git reset <--COMMMENT HASH-->
 ```
