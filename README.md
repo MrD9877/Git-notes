@@ -36,7 +36,7 @@ Superscript	<sup> </sup>	None	This is a <sup>superscript</sup> text\
 **git**  add  <--file name-->\
 **git**  commit -m *"msg"*  (its imortant to commit to push changes)\
 **git**  push origin __main__(master{branch you want to push})\
-### Change existing origin\
+### Change existing origin
 ```
 git remote set-url origin new.git.url/here
 ```
